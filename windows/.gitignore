@@ -28,3 +28,4 @@ project.fragment.lock.json
 /.cr/personal
 
 obj
+bin
