@@ -1,0 +1,28 @@
+################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+.vs/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+
+#Icon Files
+desktop.ini
+
+[Bb]in/
+[Oo]bj/
+artifacts/
+
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+
+
+*.log
+*.tmp
+/.cr/personal
