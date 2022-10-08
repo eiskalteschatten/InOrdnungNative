@@ -35,13 +35,14 @@
             SelectionChanged="NavigationView_SelectionChanged"
             IsBackButtonVisible="Collapsed"
             IsSettingsVisible="True"
+            IsTitleBarAutoPaddingEnabled="True"
             Grid.Row="1">
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Project Info"
                     Tag="InOrdnung.Views.ProjectInfo"
                     ToolTipService.ToolTip="Project Info">
                     <NavigationViewItem.Icon>
-                        <BitmapIcon UriSource="/Assets/Home.png" ShowAsMonochrome="True" />
+                        <FontIcon FontFamily="Segoe MDL2 Assets" Glyph="&#xE946;"/>
                     </NavigationViewItem.Icon>
                 </NavigationViewItem>
             </NavigationView.MenuItems>
