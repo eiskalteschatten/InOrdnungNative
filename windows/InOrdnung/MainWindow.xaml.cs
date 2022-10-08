@@ -27,6 +27,8 @@ namespace InOrdnung
         {
             this.InitializeComponent();
             this.Title = "InOrdnung";
+            ExtendsContentIntoTitleBar = true;
+            SetTitleBar(AppTitleBar);
         }
 
         private void myButton_Click(object sender, RoutedEventArgs e)
