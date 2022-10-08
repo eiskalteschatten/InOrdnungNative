@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "InOrdnung (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "InOrdnung (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
