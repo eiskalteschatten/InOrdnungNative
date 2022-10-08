@@ -64,9 +64,6 @@ namespace InOrdnung
             object sender,
             RoutedEventArgs e)
         {
-            // Navigates, but does not update the Menu.
-            // ContentFrame.Navigate(typeof(HomePage));
-
             SetCurrentNavigationViewItem(GetNavigationViewItems(typeof(ProjectInfo)).First());
         }
 

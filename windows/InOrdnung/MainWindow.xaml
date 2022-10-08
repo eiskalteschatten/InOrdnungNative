@@ -35,7 +35,8 @@
             SelectionChanged="NavigationView_SelectionChanged"
             Header="WinUI 3 Navigation Sample"
             IsBackButtonVisible="Collapsed"
-            IsSettingsVisible="False">
+            IsSettingsVisible="False"
+            Grid.Row="1">
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Project Info"
                     Tag="InOrdnung.Views.ProjectInfo"
