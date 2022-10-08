@@ -31,9 +31,9 @@ namespace InOrdnung
             SetTitleBar(AppTitleBar);
         }
 
-        private void myButton_Click(object sender, RoutedEventArgs e)
-        {
-            myButton.Content = "Clicked";
-        }
+        //private void myButton_Click(object sender, RoutedEventArgs e)
+        //{
+        //    myButton.Content = "Clicked";
+        //}
     }
 }

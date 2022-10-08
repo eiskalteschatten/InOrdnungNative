@@ -13,8 +13,7 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         
-        <Grid
-            x:Name="AppTitleBar"
+        <Grid x:Name="AppTitleBar"
             Height="32"
             HorizontalAlignment="Stretch"
             VerticalAlignment="Stretch"
@@ -31,8 +30,27 @@
                    Margin="28,0,0,0"/>
         </Grid>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
+        <SplitView IsPaneOpen="True"
+            DisplayMode="Inline"
+            OpenPaneLength="296"
+            Grid.Row="1">
+            <SplitView.Pane>
+                <TextBlock Text="Pane"
+                    FontSize="24"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"/>
+            </SplitView.Pane>
+
+            <Grid>
+                <TextBlock Text="Content"
+                    FontSize="24"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"/>
+            </Grid>
+        </SplitView>
+
+        <!--<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1">
             <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-        </StackPanel>
+        </StackPanel>-->
     </Grid>
 </Window>
