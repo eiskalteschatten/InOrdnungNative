@@ -37,9 +37,7 @@ namespace InOrdnung
         //    myButton.Content = "Clicked";
         //}
 
-        private void NavigationView_SelectionChanged(
-            NavigationView sender,
-            NavigationViewSelectionChangedEventArgs args)
+        private void NavigationView_SelectionChanged(NavigationView sender, NavigationViewSelectionChangedEventArgs args)
         {
             SetCurrentNavigationViewItem(args.SelectedItemContainer as NavigationViewItem);
         }
@@ -60,9 +58,7 @@ namespace InOrdnung
             NavigationView.Header = item.Content;
         }
 
-        private void NavigationView_Loaded(
-            object sender,
-            RoutedEventArgs e)
+        private void NavigationView_Loaded(object sender, RoutedEventArgs e)
         {
             SetCurrentNavigationViewItem(GetNavigationViewItems(typeof(ProjectInfo)).First());
         }
