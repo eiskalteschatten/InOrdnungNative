@@ -8,18 +8,17 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Page.Resources>
-        <!--This top margin is the height of the custom TitleBar-->
+    <!--<Page.Resources>
+        --><!--This top margin is the height of the custom TitleBar--><!--
         <Thickness x:Key="NavigationViewContentMargin">0,32,0,0</Thickness>
-    </Page.Resources>
+    </Page.Resources>-->
 
     <NavigationView x:Name="NavigationView"
         Loaded="NavigationView_Loaded"
         SelectionChanged="NavigationView_SelectionChanged"
-        IsBackButtonVisible="Collapsed"
+        IsBackButtonVisible="Visible"
         IsSettingsVisible="True"
-        IsTitleBarAutoPaddingEnabled="False"
-        Grid.Row="1">
+        IsTitleBarAutoPaddingEnabled="False">
         <NavigationView.MenuItems>
             <NavigationViewItem Content="Project Info"
                 Tag="InOrdnung.Views.ProjectInfo"
