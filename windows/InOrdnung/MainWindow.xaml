@@ -23,7 +23,8 @@
                    HorizontalAlignment="Left" 
                    Width="16" Height="16" 
                    Margin="8,0"/>
-            <TextBlock x:Name="AppTitleTextBlock" Text="InOrdnung"
+            <TextBlock x:Name="AppTitleTextBlock" 
+                   Text="{x:Bind Title}"
                    TextWrapping="NoWrap"
                    Style="{StaticResource CaptionTextBlockStyle}" 
                    VerticalAlignment="Center"
@@ -35,7 +36,7 @@
             SelectionChanged="NavigationView_SelectionChanged"
             IsBackButtonVisible="Collapsed"
             IsSettingsVisible="True"
-            IsTitleBarAutoPaddingEnabled="True"
+            IsTitleBarAutoPaddingEnabled="false"
             Grid.Row="1">
             <NavigationView.MenuItems>
                 <NavigationViewItem Content="Project Info"

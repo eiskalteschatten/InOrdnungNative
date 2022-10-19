@@ -27,7 +27,7 @@ namespace InOrdnung
         public MainWindow()
         {
             this.InitializeComponent();
-            this.Title = "InOrdnung";
+            Title = "InOrdnung";
             ExtendsContentIntoTitleBar = true;
             SetTitleBar(AppTitleBar);
         }
